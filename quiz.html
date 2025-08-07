@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Manual Driving Quiz to test your knowledge about clutch and gear shifting." />
+  <meta name="keywords" content="manual driving quiz, clutch quiz, driving test" />
+  <meta name="author" content="Habert" />
+  <title>Manual Driving Quiz | Test Your Knowledge</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Manual Driving Guide</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="clutch-control.html">Clutch Control</a>
+        <a href="reversing.html">Reversing</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Test Your Manual Driving Knowledge</h2>
+    <p>Answer the question below to check your understanding of clutch and gear shifting.</p>
+
+    <form id="quizForm">
+      <fieldset>
+        <legend>1. What must you do before shifting gears in a manual car?</legend>
+        <label>
+          <input type="radio" name="q1" value="correct" />
+          Press the clutch pedal
+        </label><br />
+        <label>
+          <input type="radio" name="q1" value="wrong" />
+          Press the gas pedal
+        </label><br />
+        <label>
+          <input type="radio" name="q1" value="wrong" />
+          Turn the steering wheel
+        </label><br />
+      </fieldset>
+
+      <button type="button" id="checkAnswersBtn">Check Answer</button>
+    </form>
+
+    <div id="quizResult" style="margin-top: 15px; font-weight: bold;"></div>
+  </main>
+  <p><a href="index.html">⭠ Back to Introduction</a></p>
+  <footer>
+    <p>&copy; 2025 Habert. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
