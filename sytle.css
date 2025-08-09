@@ -108,3 +108,10 @@ footer {
   color: #eee;
   margin-top: 40px;
 }
+
+.image-container img {
+  width: 300px;  
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
