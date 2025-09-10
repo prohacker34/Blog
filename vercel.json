@@ -1,8 +1,15 @@
 {
-    "routes": [
-      {
-        "src": "/ads.txt",
-        "dest": "/ads.txt"
+  "routes": [
+    {
+      "src": "/ads.txt",
+      "dest": "/ads.txt"
+    },
+    {
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml",
+      "headers": {
+        "Content-Type": "application/xml"
       }
-    ]
-  }
+    }
+  ]
+}
